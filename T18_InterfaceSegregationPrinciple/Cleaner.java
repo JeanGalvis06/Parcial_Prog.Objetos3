@@ -1,23 +1,18 @@
 package T18_InterfaceSegregationPrinciple;
 
-public class Cleaner implements Maintancen{
+public class Cleaner implements IClean {
 
     @Override
-    public void repair() {
+    public void cleanSweep() {
         // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'repair'");
+        throw new UnsupportedOperationException("Unimplemented method 'cleanSweep'");
     }
 
     @Override
-    public void clean() {
+    public void cleanVacuum() {
         // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'clean'");
+        throw new UnsupportedOperationException("Unimplemented method 'cleanVacuum'");
     }
 
-    @Override
-    public void keep() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'keep'");
-    }
     
 }

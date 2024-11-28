@@ -1,6 +1,6 @@
 package T12_T13_HeritageMultiple;
 
-public class Bird implements Flayer, Singer {
+public class Bird implements Flyer, Singer {
 
     @Override
     public void sing() {
@@ -8,7 +8,7 @@ public class Bird implements Flayer, Singer {
     }
 
     @Override
-    public void flay() {
+    public void fly() {
         System.out.println("the bird is flaying");
     }
     
